@@ -11,6 +11,8 @@ body {
     justify-content: center;
     padding-top: 30px;
     background-color: #d5e8e1;
+    width: 100vw;
+    height: 100vh;
 }
 
 :root {
@@ -27,6 +29,9 @@ body {
     width: 600px;
     height: 100%;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .left {
@@ -167,14 +172,17 @@ body {
     font-weight: var(--fw-normal);
     text-align: center;
 }
-.skills_front-end_item_wrapper{
+
+.skills_front-end_item_wrapper {
     background-color: var(--slills-item-bg);
     border-radius: 3px;
     padding: 5px;
 }
-.skills_front-end_item{
+
+.skills_front-end_item {
     white-space: pre-wrap;
 }
+
 .right_wrapper_education {
 }
 
@@ -182,7 +190,21 @@ body {
 }
 
 @media screen and (min-width: 700px) {
-    .right{
+    body{
+        padding: 0;
+    }
+    .wrapper {
         width: 100vw;
+        height: 100vh;
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+    .left{
+        max-width: 100vw;
+        width: 100%;
+    }
+    .right{
+        max-width: 100vw;
+        width: 100%;
     }
 }
