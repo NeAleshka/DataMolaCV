@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    flex-direction: row;
 }
 
 .left {
@@ -189,7 +189,7 @@ body {
 .right_wrapper_experience {
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
     body{
         padding: 0;
     }
