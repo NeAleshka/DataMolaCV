@@ -12,6 +12,23 @@
 <body>
 <div class="wrapper">
     <div class="left">
+        <div style="position: absolute; overflow: hidden">
+            <div class="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
         <div class="left_wrapper">
             <div class="left_wrapper_photo">
                 <img src="assets/images/avatar.png" alt="photo">
@@ -53,16 +70,22 @@
                 <div class="left_wrapper_social_title">
                     Social Media
                 </div>
-                <div class="social_icons_wrapper">
-                    <a href="https://www.linkedin.com/in/alexey-budai-b93088232/" target="_blank">
-                        <img src="assets/images/linkedin.png" alt="linkedin">
-                    </a>
-                    <a href="https://github.com/NeAleshka?tab=repositories/" target="_blank">
-                        <img src="assets/images/github.png" alt="github">
-                    </a>
-                    <a href="https://t.me/Ne_Aleshka" target="_blank">
-                        <img src="assets/images/telegram.png" alt="telegram">
-                    </a>
+                <div class="slider_wrapper">
+                    <div class="slider-arrow prev">
+                        <img src="assets/images/back-arrow-previous.svg" alt="prev">
+                    </div>
+                    <div class="slider">
+                        <div class="slider_line">
+                            <img src="assets/images/telegram.png" alt="logo">
+                            <img src="assets/images/github.png" alt="logo">
+                            <img src="assets/images/linkedin.png" alt="logo">
+                            <img src="assets/images/vk.svg" alt="logo" >
+                        </div>
+                    </div>
+
+                    <div class="slider-arrow">
+                        <img class="next" src="assets/images/back-arrow-previous.svg"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,9 +97,9 @@
                     Skills
                 </div>
                 <div class="right_wrapper_skills_front-end">
-                   <div class="skills_front-end_title">
-                       Front-End
-                   </div>
+                    <div class="skills_front-end_title">
+                        Front-End
+                    </div>
                     <div class="skills_front-end_item_wrapper">
                         <span class="skills_front-end_item">HTML | CSS (SASS,SCSS,PUG) | JavaScript (TypeScript)</span>
                         <br/>
@@ -107,23 +130,26 @@
                     Education
                 </div>
                 <div class="skills_front-end_item_wrapper">
-                    <div  class="education_item_title">
+                    <div class="education_item_title">
                         <a href="https://www.bsuir.by/" target="_blank">
                             BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIO ELECTRONICS (2020 - 2022)
                         </a>
                     </div>
                     <div>
-                        At the university, I first got acquainted with programming. Wrote several programs in C++ and C#.
+                        At the university, I first got acquainted with programming. Wrote several programs in C++ and
+                        C#.
                     </div>
                 </div>
                 <div class="skills_front-end_item_wrapper">
-                  <div class="education_item_title">
-                      <a href="https://it-incubator.io/" target="_blank">
-                          IT-INCUBATOR (September 2021 - March 2021)
-                      </a>
-                  </div>
+                    <div class="education_item_title">
+                        <a href="https://it-incubator.io/" target="_blank">
+                            IT-INCUBATOR (September 2021 - March 2021)
+                        </a>
+                    </div>
                     <div>
-                        These are my first courses where I continued to study programming for half a year. Here I learned a lot of new things and found many new friends who are interested in programming just like me
+                        These are my first courses where I continued to study programming for half a year. Here I
+                        learned a lot of new things and found many new friends who are interested in programming just
+                        like me
                     </div>
                 </div>
             </div>
@@ -135,11 +161,12 @@
                     <div class="skills_front-end_item_wrapper">
                         <div class="education_item_title">
                             <a href="https://market.avtoto.ru/" target="_blank">
-                               AVTOTO.RU (August 2021 - January 2022)
+                                AVTOTO.RU (August 2021 - January 2022)
                             </a>
                         </div>
                         <div>
-                            My first job was a large online store. Here I worked as a front-end developer on the NextJs and MobX stack. Developed UI fix bugs and wrote unit tests on Jest.
+                            My first job was a large online store. Here I worked as a front-end developer on the NextJs
+                            and MobX stack. Developed UI fix bugs and wrote unit tests on Jest.
                         </div>
                     </div>
                     <div class="skills_front-end_item_wrapper">
@@ -149,7 +176,9 @@
                             </a>
                         </div>
                         <div>
-                            The second place of work, here I developed the UI for the program in which the employees of the organization worked. I wrote an application for guests of establishments from 0. I got acquainted with Jquery, Pwa.
+                            The second place of work, here I developed the UI for the program in which the employees of
+                            the organization worked. I wrote an application for guests of establishments from 0. I got
+                            acquainted with Jquery, Pwa.
                         </div>
                     </div>
                 </div>
