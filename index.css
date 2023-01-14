@@ -36,7 +36,6 @@ body {
 
 .left {
     width: 360px;
-    min-width: 260px;
     background-color: black;
     color: white;
 }
@@ -149,7 +148,6 @@ body {
 
 .right {
     width: 340px;
-    min-width: 340px;
     background-color: white;
 }
 
@@ -287,6 +285,7 @@ body {
 
 .change #bar1 {
     transform: translateY(4px) rotateZ(-45deg);
+    width: 45px;
 }
 
 .change #bar2 {
@@ -295,6 +294,7 @@ body {
 
 .change #bar3 {
     transform: translateY(-6px) rotateZ(45deg);
+    width: 45px;
 }
 
 .change-bg {
@@ -361,5 +361,14 @@ body {
 
     .left_wrapper_photo {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .slider{
+        width: 50px;
+    }
+    #menu-bar{
+        width: 10px;
     }
 }
